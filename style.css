@@ -1,0 +1,167 @@
+.container {
+  width: 420px;
+  height: 550px;
+  background-color: rgba(0,0,0,0.3);
+  margin: auto;
+  margin-top: 1.5em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+
+}
+
+.calculator {
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 80px 80px 80px 80px 80px 80px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.calcOutput {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  font-size: 42px;
+  background-color: black;
+  color: white;
+}
+.calcBtn {
+  height: auto;
+  width: auto;
+  border-radius: 10%;
+  font-size: 45px;
+  background-color: rgba(250), 250, 250, 1);
+  font-family: sans-serif;
+}
+.calcAction {
+  height: auto;
+  width: auto;
+  border-radius: 10%;
+  font-size: 45px;
+  background-color: rgba(250, 100 , 0, 1);
+  font-family: sans-serif;
+}
+
+#clear {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  background-color: rgba(250, 100 , 0, 1);
+}
+
+#seven {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+#four {grid-column-start: 1;
+grid-column-end: 1;
+grid-row-start: 4;
+grid-row-end: 4;
+}
+
+#one {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 5;
+  grid-row-end: 5;
+}
+
+#zero{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
+#eight {
+     grid-column-start: 2;
+     grid-column-end: 2;
+     grid-row-start: 3;
+     grid-row-end: 3;
+}
+
+#five {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+#two {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 5;
+}
+
+#nine {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+#six {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+#three {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 5;
+}
+
+#decimal {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
+
+#divide {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  background-color: rgba(250, 100 , 0, 1);
+}
+
+#multiply {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  background-color: rgba(250, 100 , 0, 1);
+}
+
+#minus {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  background-color: rgba(250, 100 , 0, 1);
+}
+
+#plus {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 5;
+  background-color: rgba(250, 100 , 0, 1);
+}
+
+#equals {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 6;
+  background-color: rgba(250, 100 , 0, 1);
+}
